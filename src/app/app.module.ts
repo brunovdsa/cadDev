@@ -6,17 +6,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormComponent } from './developers/form/form.component';
 import { HeaderComponent } from './header/header.component';
+import { ListComponent } from './developers/list/list.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
-    HeaderComponent
+    HeaderComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [], 
   bootstrap: [AppComponent]

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Developer } from '../shared/developer';
+import { Developer } from '../shared/interface/developer'
 import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
@@ -14,7 +14,7 @@ export class FormComponent implements OnInit {
   constructor(private formBuilder: FormBuilder) { }
 
   ngOnInit() {
-    this.createForm(new Developer())
+    //this.createForm(new Developer())
   }
 
   createForm(developer: Developer) {
@@ -31,6 +31,6 @@ export class FormComponent implements OnInit {
   onSubmit(){
     console.log(this.formDeveloper.value);
 
-    this.formDeveloper.reset(new Developer())
+    //this.formDeveloper.reset(new Developer())
   }
 }

@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="title-container">
+        <h1 class="title">
+            Dev's já cadastrados em nosso sistema
+        </h1>
+    </div>
+    <div class="card" *ngFor="let dev of devs">
+        <div class="card-header">
+            <H1 class="title-card">{{dev.name}}</H1>
+            <img src="{{dev.avatar}}" alt="" class="avatar">
+        </div>
+        <tr class="row">
+            <td class="column">{{dev.email}}</td>
+            <td class="column">{{dev.city}}</td>
+            <td class="column">{{dev.education}}</td>
+            <td class="column">{{dev.technologies}}</td>
+            <a class="link-gh" href="{{dev.ghuser}}">
+                <td class="column">Acessar GitHub</td>
+            </a>
+        </tr>
+    </div>
+</div>

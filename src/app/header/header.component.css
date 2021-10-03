@@ -1,6 +1,10 @@
 header {
     background: #1A212C;
-    padding: 1.4em;
+    padding: 2em;
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 { 
