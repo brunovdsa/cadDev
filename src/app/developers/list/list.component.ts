@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup } from '@angular/forms';
+
 import { ListDevsService } from 'src/app/service/list-devs.service';
 import { Developer } from '../shared/interface/developer';
 
@@ -10,6 +12,7 @@ import { Developer } from '../shared/interface/developer';
 export class ListComponent implements OnInit {
 
   devs: Developer[];
+  form: FormGroup;
 
   constructor(private service: ListDevsService) {}
 

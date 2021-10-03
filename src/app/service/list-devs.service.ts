@@ -17,4 +17,11 @@ export class ListDevsService {
         tap(console.log)
       )
   }
+
+  register(cadDev: Developer[]){
+    return this.http.post(`${API_PATH}devs `, cadDev)
+      .pipe(
+        tap(console.log)
+      )
+  }
 }
