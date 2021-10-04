@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { FormComponent } from './developers/form/form.component';
 import { HeaderComponent } from './header/header.component';
 import { ListComponent } from './developers/list/list.component';
+import { SobreComponent } from './components/sobre/sobre.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { ListComponent } from './developers/list/list.component';
     FormComponent,
     HeaderComponent,
     ListComponent,
+    SobreComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,
