@@ -5,6 +5,6 @@ export interface Developer {
     email: string,
     city: string,
     education: string,
-    technologies: [],
+    technologies: string,
     ghuser: string
 }
