@@ -19,7 +19,7 @@ import { MainComponent } from './components/main/main.component';
     HeaderComponent,
     ListComponent,
     SobreComponent,
-    MainComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

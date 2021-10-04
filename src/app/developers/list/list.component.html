@@ -8,35 +8,37 @@
         <i class="fa fa-search" aria-hidden="true"></i>
         <input type="search" [formControl]="queryField">
     </div>
-    <div class="card" *ngFor="let devApi of devsApi$ | async">
-        <div class="card-header">
-            <H1 class="title-card">{{devApi.name}}</H1>
-            <img src="{{devApi.avatar}}" alt="" class="avatar">
+    <div class="container-card">
+        <div class="card" *ngFor="let devApi of devsApi$ | async">
+            <div class="card-header">
+                <H1 class="title-card">{{devApi.name}}</H1>
+                <img src="{{devApi.avatar}}" alt="" class="avatar">
+            </div>
+            <tr class="row">
+                <td class="column">{{devApi.email}}</td>
+                <td class="column">{{devApi.city}}</td>
+                <td class="column">{{devApi.education}}</td>
+                <td class="column">{{devApi.technologies}}</td>
+                <a class="link-gh" href="{{devApi.ghuser}}">
+                    <td class="column">Acessar GitHub</td>
+                </a>
+            </tr>
         </div>
-        <tr class="row">
-            <td class="column">{{devApi.email}}</td>
-            <td class="column">{{devApi.city}}</td>
-            <td class="column">{{devApi.education}}</td>
-            <td class="column">{{devApi.technologies}}</td>
-            <a class="link-gh" href="{{devApi.ghuser}}">
-                <td class="column">Acessar GitHub</td>
-            </a>
-        </tr>
-    </div>
 
-    <div class="card" *ngFor="let dev of devs">
-        <div class="card-header">
-            <H1 class="title-card">{{dev.name}}</H1>
-            <img src="{{dev.avatar}}" alt="" class="avatar">
+        <div class="card" *ngFor="let dev of devs">
+            <div class="card-header">
+                <H1 class="title-card">{{dev.name}}</H1>
+                <img src="{{dev.avatar}}" alt="" class="avatar">
+            </div>
+            <tr class="row">
+                <td class="column">{{dev.email}}</td>
+                <td class="column">{{dev.city}}</td>
+                <td class="column">{{dev.education}}</td>
+                <td class="column">{{dev.technologies}}</td>
+                <a class="link-gh" href="{{dev.ghuser}}">
+                    <td class="column">Acessar GitHub</td>
+                </a>
+            </tr>
         </div>
-        <tr class="row">
-            <td class="column">{{dev.email}}</td>
-            <td class="column">{{dev.city}}</td>
-            <td class="column">{{dev.education}}</td>
-            <td class="column">{{dev.technologies}}</td>
-            <a class="link-gh" href="{{dev.ghuser}}">
-                <td class="column">Acessar GitHub</td>
-            </a>
-        </tr>
     </div>
 </div>

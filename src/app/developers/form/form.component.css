@@ -1,4 +1,5 @@
 form {
+    margin-bottom: 3em;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 10px 10px #0000000D;
 
@@ -55,7 +56,7 @@ form, .form-group {
     color: #FFFFFF;
     opacity: 1;
 
-    background: #0DCB7D 0% 0% no-repeat padding-box;
+    background:linear-gradient(to bottom right, #0e8654,#0DCB7D);
     border-radius: 5px;
     border: none;
     opacity: 1;
@@ -71,4 +72,30 @@ form, .form-group {
     font: normal normal 600 0.9em/24px Source Sans Pro;
 
     margin-top: 0.5em;
+}
+
+@media (min-width:1025px){
+    .form-group{
+        width: 30%;
+    }
+
+    .btn-submit-form {
+        width: 15%;
+        cursor: pointer;
+    }
+
+    .btn-submit-form:hover{
+        background-color: #1bd688;
+        font-size: 1.2em;
+        transition: 200ms;
+    }
+
+    .btn-submit-form:active{
+        background-color: #1eb878;
+    }
+
+    .btn-cancel-submit:hover{
+        color: #218ef3;
+        cursor: pointer
+    }
 }
