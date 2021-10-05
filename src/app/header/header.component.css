@@ -13,6 +13,15 @@ h1 {
     border-left: 0.2em #5CB2A7 solid;
 }
 
+h2 { 
+    font:normal normal 600 1.3em/24px Source Sans Pro;
+    color: #fee;
+}
+
+h2:hover {     
+    color: rgb(204, 202, 202);
+}
+
 .container {
     display: flex;
     justify-content: space-between;
