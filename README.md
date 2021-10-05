@@ -26,3 +26,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # cadDev
+<p aling="center">
+    <img src="src/assets/to_readme/Desktop1.png">
+</p>
+<p aling="center">
+    <img src="src/assets/to_readme/Desktop2.png">
+</p>
+<p aling="center">
+    <img src="src/assets/to_readme/Mobile1.png">
+    <img src="src/assets/to_readme/Mobile2.png">
+</p>
