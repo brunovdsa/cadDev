@@ -1,31 +1,40 @@
-# CadDev
+## CadDev
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+# Sobre
 
-## Development server
+O desafio foi realizado pela DataSprints, com o intuíto de testar meus conhecimentos em frontend.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+A tecnologia utilizada ([Angular](https://angular.io/)) foi escolhida pela empresa. 
 
-## Code scaffolding
+Utilizado do conceito de mobile first, no qual consiste em desenvolver a aplicação voltada primeiramente para o mobile, e depois fazer adaptações para o desktop e outras plataformas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+*Na aplicação é possível*
+- [x] Cadastrar um dev na plataforma
+- [x] Buscar por um dev através do nome, tecnologias que utiliza, cidade e escolaridade.
 
-## Build
+## Como instalar e rodar a aplicação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Requisitos
 
-## Running unit tests
+É necessário ter instalado [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e o [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Backend
 
-## Running end-to-end tests
+*Utilizada uma API em NodeJS*
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+  1. Clone o repositório da API```$ git clone <https://github.com/brunovdsa/apiFake>```
+  2. Entre na pasta do projeto e instale as dependências ```yarn install``` ou ```npm i```
+  3. Rode ```npx json-server db.json``` para inicializar o servidor
+  *servidor inciará na porta:3000*
+  
+### Frontend
 
-## Further help
+  1. Clone esse repositório
+  2. Acesse a pasta do projeto e instale as dependências ```npm i```
+  3. Rode ```ng serve``` ou ```yarn start```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# cadDev
+
+## Screenshots cadDev
 <p aling="center">
     <img src="src/assets/to_readme/Desktop1.png">
 </p>
